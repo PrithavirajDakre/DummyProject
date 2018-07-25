@@ -33,7 +33,7 @@ import org.testng.annotations.Test;
 import org.apache.log4j.BasicConfigurator;
 
 public class TestClass1 {
-	   
+	   System.out.println("Change for GitHub");
 	//static Logger Log = LogManager.getLogger(TestClass1.class.getName());
 	static WebDriver driver;
 	
@@ -57,7 +57,7 @@ public class TestClass1 {
 		driver.close();
 		
 		 
-	   /* driver.get("   ");
+	   /* 
  
 	    Actions builder = new Actions(driver);
 	    builder.click(driver.findElement(By.id("photo"))).build().perform();
