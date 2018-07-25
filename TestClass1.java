@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 
 //import org.apache.log4j.xml.DOMConfigurator;
+//updated for Github
 
 
 
@@ -34,6 +35,9 @@ import org.apache.log4j.BasicConfigurator;
 
 public class TestClass1 {
 	   System.out.println("Change for GitHub");
+	   System.out.println("Change for GitHub2");
+	   System.out.println("Change for GitHub3");
+	   System.out.println("Change for GitHub4");
 	//static Logger Log = LogManager.getLogger(TestClass1.class.getName());
 	static WebDriver driver;
 	
